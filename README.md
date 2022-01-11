@@ -1,6 +1,7 @@
 # NL
-A Natural-Language programming language.
-Built using Codex.
+A Natural-Language programming language. Built using Codex.
+
+A few examples are inside the `nl_projects` directory.
 
 ## How it works
 Write any code in pure english, and have it compiled and run as regular code would. The only rules are:

@@ -3,7 +3,7 @@ A Natural-Language programming language.
 Built using Codex.
 
 ## How it works
-Write any code in pure english, and have it compiled and run as code. The only rules are:
+Write any code in pure english, and have it compiled and run as regular code would. The only rules are:
 * Must have the `.nl` file extension
 * Every command is separated by a line-break
 * Make sure to keep the number of stuff per-line to a minimum. Doing so will result in better compilation.

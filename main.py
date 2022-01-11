@@ -1,6 +1,6 @@
 import compilation
 from time import sleep
 
-print("Attempting to compile...")
+print("Compiling and running NL code...")
 sleep(2)
-compilation.compileAndRun("nl_projects/ui.nl")
+compilation.compileAndRun("nl_projects/guessingGame.nl")

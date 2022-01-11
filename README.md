@@ -81,5 +81,8 @@ while True:
         exit()
 ```
 
-## API
-List of commands
+## API List of commands in compilation.py
+- ```compile(nl_code_path)```
+- ```compileAndRun(nl_code_path)```
+- ```run(python_code_path)```
+- ```compileWithoutCorrection(nl_code_path)``` Compiles without creating an indentation file to compile.

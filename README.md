@@ -3,14 +3,15 @@ A Natural-Language programming language.
 Built using Codex.
 
 ## How it works
-
-### Writing in NL
+Write any code in pure english, and have it compiled and run as code. The only rules are:
+* Must have the `.nl` file extension
 * Every command is separated by a line-break
 * Make sure to keep the number of stuff per-line to a minimum. Doing so will result in better compilation.
 * comments are put in-between parentheses
 
 ### Example: Guessing game.
 Compiling a guessing game program looks something like this:
+
 First you write the code in NL:
 
 ```
@@ -29,7 +30,7 @@ Tell the user how many chances are left.
 when the loop has ended, if the user has not guessed the answer, tell the user game over and then exit the game
 ```
 
-When you compile the code, it gets copied into a directory and gets auto-indented:
+When you compile the code, it gets copied into a directory and auto-indented (This stage can be skipped if desired, but doing so will result in greater likelyhood of erroneous code.):
 ```
 Create a maximum number of 100
 
@@ -45,7 +46,7 @@ Repeat forever...
     When loop has ended, If user has not guessed the answer, tell the user game over and then exit the game.
 ```
 
-The auto-indented code gets converted to python code and run:
+Which then gets compiled to python code and executed:
 
 ```{:.language-python}
 import random
@@ -81,7 +82,7 @@ while True:
         exit()
 ```
 
-## API List of commands in compilation.py
+## API List of commands (in compilation.py)
 - ```compile(nl_code_path)```
 - ```compileAndRun(nl_code_path)```
 - ```run(python_code_path)```
